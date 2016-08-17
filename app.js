@@ -25,7 +25,7 @@ var nav = [{
     Link: '/About',
     Text: 'About'
 }, {
-    Link: '#works',
+    Link: '/#works',
     Text: 'Works'
 }];
 // var bookRouter = require('./src/routes/bookRoutes.js')(nav);
