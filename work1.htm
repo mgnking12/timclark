@@ -1,0 +1,11 @@
+
+<!-- saved from url=(0027)http://localhost:5000/work1 -->
+<html class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body data-gr-c-s-loaded="true"><div id="StayFocusd-infobar" style="display:none;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">hide once</a>
+    </span>
+</div>TypeError: /Users/meganking/dev/timclark/src/views/work.ejs:78<br> &nbsp; &nbsp;76| 			&lt;/div&gt;<br> &nbsp; &nbsp;77| 			&lt;div class="col-lg-10 col-lg-offset-1 mt"&gt;<br> &gt;&gt; 78| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;% for (var i=0; i &lt; work.Photo.length; i++){%&gt;<br> &nbsp; &nbsp;79| 				&lt;img class="img-responsive" src="assets/img/pr01.jpg"&gt;<br> &nbsp; &nbsp;80| 				&lt;br&gt;<br> &nbsp; &nbsp;81| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;%}%&gt;<br><br>Cannot read property 'Photo' of undefined<br> &nbsp; &nbsp;at eval (eval at &lt;anonymous&gt; (/Users/meganking/dev/timclark/node_modules/ejs/lib/ejs.js:495:12), &lt;anonymous&gt;:11:30)<br> &nbsp; &nbsp;at returnedFn (/Users/meganking/dev/timclark/node_modules/ejs/lib/ejs.js:524:17)<br> &nbsp; &nbsp;at View.exports.renderFile [as engine] (/Users/meganking/dev/timclark/node_modules/ejs/lib/ejs.js:378:31)<br> &nbsp; &nbsp;at View.render (/Users/meganking/dev/timclark/node_modules/express/lib/view.js:126:8)<br> &nbsp; &nbsp;at tryRender (/Users/meganking/dev/timclark/node_modules/express/lib/application.js:639:10)<br> &nbsp; &nbsp;at EventEmitter.render (/Users/meganking/dev/timclark/node_modules/express/lib/application.js:591:3)<br> &nbsp; &nbsp;at ServerResponse.render (/Users/meganking/dev/timclark/node_modules/express/lib/response.js:960:7)<br> &nbsp; &nbsp;at /Users/meganking/dev/timclark/app.js:58:9<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/Users/meganking/dev/timclark/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at next (/Users/meganking/dev/timclark/node_modules/express/lib/router/route.js:131:13)
+</body></html>

@@ -21,7 +21,6 @@
     <!--inject:js-->
     <script src="/js/app.js"></script>
     <!--endInject-->
-
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -64,52 +63,37 @@
     </div>
 
 
-    <div id="headerwrap">
+    <div id="workwrap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <h4>HELLO PEOPLE, MY NAME IS</h4>
-                    <h1>TIM CLARK</h1>
-                    <h4>I BUILD THINGS OUT OF STEEL</h4>
+                    <h4>NEW STEEL WORK FOR</h4>
+                    <h1><%=work.Text%></h1>
+                    <h4>ROLE: LEAD BUILDER</h4>
                 </div>
             </div>
             <! --/row -->
         </div>
         <!-- /container -->
     </div>
-    <! --/headerwrap -->
+    <! --/workwrap -->
 
     <section id="works"></section>
     <div class="container">
         <div class="row centered mt mb">
-            <h1>My Portfolio</h1>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>ABOUT THE PROJECT</h4>
+                <p>
+                    <%=work.About%>
+                </p>
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 mt">
+                <% for (var i=0; i < work.Photo.length; i++){%>
 
-            <% for (var i=0; i < works.length; i++){%>
+                    <img class="img-responsive col-md-3" src="<%=work.Photo[i]%>">
+                    <%}%>
+            </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                    <%= works[i].Text %>
-                        <a href="/Work/<%= i %>"><img src="<%= works[i].Photo[0] %>" class="img-responsive"></a>
-                </div>
-                <%}%>
-                    <!--
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="photos/IMG_0029.jpg" class="img-responsive"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="http://placehold.it/400x300" class="img-responsive"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="http://placehold.it/400x300" class="img-responsive"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="http://placehold.it/400x300" class="img-responsive"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="http://placehold.it/400x300" class="img-responsive"></a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                        <a href="work.html"><img src="http://placehold.it/400x300" class="img-responsive"></a>
-                    </div>-->
         </div>
         <! --/row -->
     </div>
@@ -157,7 +141,9 @@
                 <div class="col-lg-4">
                     <p>hello@instant.com</p>
                 </div>
+
             </div>
+
         </div>
     </div>
     <! --/footerwrap -->
