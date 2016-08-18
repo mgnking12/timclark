@@ -125,6 +125,10 @@ header {
     top: -55px;
 }
 
+.big {
+    width: 60%;
+}
+
 #headerwrap {
     background: url("/photos/tim.png") no-repeat top;
     padding-top: 250px;
