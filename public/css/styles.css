@@ -150,10 +150,10 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #2f2f2f;
 }
 
 #headerwrap h1 {
-    color: #ffffff;
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 4px;
@@ -163,7 +163,6 @@ header {
 
 #headerwrap h4 {
     font-weight: 400;
-    color: #ffffff
 }
 
 #social {
@@ -185,10 +184,10 @@ header {
     padding-top: 70px;
     padding-bottom: 50px;
     background-color: #2f2f2f;
+    color: #fff;
 }
 
 #footerwrap p {
-    color: #f2f2f2;
     margin-left: 10px;
 }
 
@@ -209,10 +208,10 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #2f2f2f;
 }
 
 #workwrap h1 {
-    color: #ffffff;
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 4px;
@@ -222,14 +221,14 @@ header {
 
 #workwrap h4 {
     font-weight: 400;
-    color: #ffffff
 }
 
 #aboutwrap {
     background-color: #EAE9E8;
     padding-top: 250px;
     text-align: center;
-    text-shadow: 2px 2px 5px #ccc background-attachment: relative;
+    text-shadow: 2px 2px 5px #ccc;
+    background-attachment: relative;
     background-position: center center;
     min-height: 45em;
     width: 100%;
@@ -241,6 +240,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #2f2f2f;
 }
 
 
