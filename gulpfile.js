@@ -29,7 +29,7 @@ gulp.task('inject', function() {
         directory: './public/lib',
         ignorePath: '../../public'
     };
-    return gulp.src('./src/views/*.jade')
+    return gulp.src('./src/views/*.ejs')
         .pipe(wiredep(wiredepOptions))
         .pipe(inject(injectSrc, injectOptions))
         .pipe(gulp.dest('./src/views'));

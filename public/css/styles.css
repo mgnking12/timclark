@@ -191,8 +191,13 @@ header {
     margin-left: 10px;
 }
 
+.whiteBG {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
 #workwrap {
-    background-color: #EAE9E8;
     padding-top: 250px;
     text-align: center;
     text-shadow: 2px 2px 5px #ccc;
