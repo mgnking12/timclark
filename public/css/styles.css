@@ -86,24 +86,26 @@ h6 {
 }
 
 .navbar-default .navbar-brand {
-    color: #000;
+    color: #fff;
 }
 
 .navbar-default {
     background-color: #ccc;
     border-color: transparent;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #868587;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #000;
+    color: #fff;
     background-color: transparent;
     border-bottom: 2px solid #000
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #fff;
 }
 
 
@@ -120,14 +122,14 @@ header {
 }
 
 .nav-up {
-    top: -50px;
+    top: -55px;
 }
 
 #headerwrap {
     background: url("/photos/tim.png") no-repeat top;
     padding-top: 250px;
     text-align: center;
-    text-shadow: 1px 1px 3px #000;
+    text-shadow: 2px 2px 5px #ccc;
     background-attachment: relative;
     background-position: center center;
     min-height: 45em;
@@ -186,7 +188,7 @@ header {
     background-color: #EAE9E8;
     padding-top: 250px;
     text-align: center;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 5px #ccc;
     background-attachment: relative;
     background-position: center center;
     min-height: 45em;
@@ -219,8 +221,7 @@ header {
     background-color: #EAE9E8;
     padding-top: 250px;
     text-align: center;
-    text-shadow: 2px 2px 5px #000;
-    background-attachment: relative;
+    text-shadow: 2px 2px 5px #ccc background-attachment: relative;
     background-position: center center;
     min-height: 45em;
     width: 100%;
