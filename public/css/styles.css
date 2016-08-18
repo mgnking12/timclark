@@ -113,6 +113,10 @@ h6 {
    Wrap Sections
    ========================================================================== */
 
+.abt-img {
+    margin-top: -150px;
+}
+
 header {
     position: fixed;
     top: 0;

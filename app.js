@@ -31,6 +31,7 @@ var nav = [{
 // var bookRouter = require('./src/routes/bookRoutes.js')(nav);
 // var adminRouter = require('./src/routes/adminRoutes.js')(nav);
 var workRouter = require('./src/routes/workRoutes.js')(nav, works);
+var abtRouter = require('./src/routes/abtRoutes.js')(nav);
 app.use(express.static('public'));
 // app.use(express.static('src/views'));
 app.use(bodyParser.json());
@@ -54,6 +55,7 @@ app.set('view engine', 'ejs');
 // app.use('/Books', bookRouter);
 // app.use('/Admin', adminRouter);
 app.use('/Work', workRouter);
+app.use('/About', abtRouter);
 
 app.get('/', function(req, res) {
     res.render('index', {
