@@ -83,10 +83,10 @@
                     <%=work.About%>
                 </p>
             </div>
-            <div class="col-lg-10 col-lg-offset-1 mt">
+            <div class="col-lg-10 col-lg-offset-1 mt" id="photos">
                 <% for (var i=0; i < work.Photo.length; i++){%>
                     <a href="<%=work.Photo[i]%>" data-gallery>
-                    <img class="img-responsive col-md-3 work-img<%=i%>" src="<%=work.Photo[i]%>">
+                    <img class="img-responsive work-img<%=i%>" src="<%=work.Photo[i]%>">
                     </a>
                     <%}%>
             </div>
